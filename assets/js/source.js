@@ -1,15 +1,15 @@
-// משתנה שיכיל את הכסף בקופה
+// variable that simulates a wallet
 
 let credit = 0;
 
-// משתנים שיכילו את מחירי הפחיות
+//Can prices
 
 const cola_price = 9;
 const fanta_price = 7;
 const zero_price = 8;
 const sprite_price = 5;
 
-// מלאים של הפחיות
+// Cans supply
 
 let cola_qty = 10;
 let fanta_qty = 10;
@@ -28,7 +28,7 @@ function printToScreen() {
   }
 }
 
-// פונקציה שמוסיפה כסף
+// function to add money to wallet
 
 function addsh(coin) {
   
@@ -42,7 +42,7 @@ function addsh(coin) {
   }
 }
 
-// פונקציה המחזירה עודף ומאפסת את הקופה
+// function that reruns money and reset the wallet 
 function reset(){
   document.querySelector("#odef").innerHTML = `העודף שלך הוא :${credit}ש״ח`;
   document.querySelector(".screen").innerHTML = "00:00";
