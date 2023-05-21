@@ -15,4 +15,3 @@ The code also includes the following functions:
 - `choice_drink(drink)`: Handles the selection of a drink and performs the necessary deductions from the credit balance and quantity of the chosen drink can. It updates the screen display accordingly.
 - `getPahit()`: Clears the image of the selected drink from the screen.
 
-Please note that this code is provided as-is and may require additional integration and modifications to work within a specific system or environment.
