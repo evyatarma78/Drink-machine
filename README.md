@@ -1,5 +1,5 @@
 # Drink-machine
-README:
+
 
 This code represents a drink machine simulation with functions for selecting a drink, adding money to the wallet, returning change, and displaying the current credit balance on the screen.
 
